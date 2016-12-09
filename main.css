@@ -7,11 +7,18 @@ body {
    margin: 0;
 }
 
-h1, p {
+h1{
    margin: 0;
    text-align: center;
-   font-size: 200%;
-   padding-top: 150px;
+   font-size: 250%;
+   padding-top: 200px;
+}
+
+p {
+  padding-top: 150px;
+  margin: 0;
+  text-align: center;
+
 }
 
 ul {
