@@ -17,7 +17,9 @@ h1, p {
 }
 
 header {
-   background: #3498db;
+  background-image: url("sunset.jpg");
+   background-repeat: no-repeat;
+   opacity: 0.8;
 }
 
 .content {
