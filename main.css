@@ -61,6 +61,7 @@ header {
    padding: 1em;
    flex: 3 3 0;
    text-align: center;
+   padding-top: 150px;
 }
 
 .content section:first-of-type {
