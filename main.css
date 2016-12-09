@@ -18,7 +18,7 @@ h1{
 p {
   margin: 0;
   text-align: center;
-  font-size: 150%;
+  font-size: 125%;
 }
 
 ul {
@@ -37,7 +37,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 60px;
+    padding: 14px 70px;
     text-decoration: none;
 }
 
