@@ -61,6 +61,18 @@ header {
    display: flex;
 }
 
+@media(min-width: 800px) {
+   .content img {
+     width: 500px;
+
+     display: flex;
+     margin-left: auto;
+     position: fixed;
+     top: 20%;
+     left: 60%;
+   }
+}
+
 .content section {
    padding: 1em;
    flex: 3 3 0;
