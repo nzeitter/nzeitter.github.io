@@ -10,8 +10,9 @@ body {
 h1{
    margin: 0;
    text-align: center;
-   font-size: 250%;
+   font-size: 300%;
    padding-top: 200px;
+   font-weight: bold;
 }
 
 p {
