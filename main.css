@@ -2,27 +2,33 @@
 
 /* Example: adding a background color to the HTML body */
 body {
-  margin: 75px auto;
-   width: 60%;
-  /* #ccc is shorthand HEX for a light grey */
-  background: #808080;
-
+   /* #ccc is shorthand HEX for a light grey */
+   background: #fff;
+   margin: 0;
 }
 
-h1 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #ffffff;
+h1, p {
+   margin: 0;
 }
 
-
-p{
-    color: #ffffff;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+.container {
+   width: 900px;
+   margin: 0 auto;
 }
 
-img {
-   border:1px solid #ffffff;
-   display: block;
-   margin: auto;
-   width: 40%;
+header, footer {
+   background: #3498db;
+}
+
+.content {
+   display: flex;
+}
+
+.content section {
+   padding: 1em;
+   flex: 3 3 0;
+}
+
+.content section:first-of-type {
+   flex: 1 1 0;
 }
