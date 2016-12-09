@@ -66,6 +66,8 @@ header {
    flex: 3 3 0;
    text-align: center;
    padding-top: 50px;
+   max-width: 300px;
+   max-height: 200px;
 }
 
 .content section:first-of-type {
