@@ -14,9 +14,9 @@ h1{
    padding-top: 200px;
    font-weight: bold;
 }
-@media (min-width:100px) {
+@media (min-width:200px) {
    .content p {
-     width: 250px;
+     width: 500px;
 
      display: flex;
      margin-left: auto;
@@ -72,9 +72,9 @@ header {
    display: flex;
 }
 
-@media(min-width: 300px) {
+@media(min-width: 200px) {
    .content img {
-     width: 500px;
+     width: 300px;
 
      display: flex;
      margin-right: auto;
