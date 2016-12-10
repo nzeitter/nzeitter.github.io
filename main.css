@@ -74,7 +74,7 @@ header {
 
 @media(min-width: 200px) {
    .content img {
-     width: 300px;
+     width: 500px;
 
      display: flex;
      margin-right: auto;
