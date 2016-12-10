@@ -14,6 +14,17 @@ h1{
    padding-top: 200px;
    font-weight: bold;
 }
+@media (min-width:100px) {
+   .content p {
+     width: 250px;
+
+     display: flex;
+     margin-left: auto;
+     position: absolute;
+     top: 60%;
+     left: 60%;
+   }
+}
 
 p {
   margin: 0;
